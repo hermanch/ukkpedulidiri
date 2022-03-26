@@ -1,0 +1,7 @@
+NIK|NAMA LENGKAP 
+123456|Herman Cahyono
+12345|Anis Budiati
+123455|Wildan Mubaroq
+1234|hero
+2022|Boyo
+90005|Wildan
