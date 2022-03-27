@@ -5,3 +5,4 @@ NIK|NAMA LENGKAP
 1234|hero
 2022|Boyo
 90005|Wildan
+1234567|Bayu

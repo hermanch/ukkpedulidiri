@@ -10,9 +10,6 @@ $lokasi = $_POST['lokasi'];
 $suhu = $_POST['suhu'];
 $id_catatan = rand(0, 10000);
 
-
-
-
 $format = "\n$id_catatan|$nik|$nama_lengkap|$tanggal|$jam|$lokasi|$suhu";
 // buka file config
 

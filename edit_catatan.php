@@ -11,12 +11,13 @@
     <div class="card-body">
     <?php 
     $data = file('catatan.txt', FILE_IGNORE_NEW_LINES);
-    $id_catatan = $_GET['id_catatan']    
-    foreach ($data as $value) {
+    $id_catatan = $_GET['id_catatan'];   
+    foreach($data as $value) {
     $pecah = explode('|', $value);
-    if ($pecah['0']==$id_catatan) {
+    if($pecah['0']==$id_catatan) {
     ?>
         <form action="simpan_edit_catatan.php" method="post">
+            <input type="hidden" name="id_catatan" value="<?= $pecah['0']; ?>">
             <div class="form-group">    
                 <label>Pilih Tanggal</label>
                 <input value="<?= $pecah['3']; ?>" name="tanggal"type="date" required class="form-control" placeholder="Masukan Tanggal">
@@ -38,8 +39,6 @@
                 <button type="reset" class="btn btn-warning" ><i class="fa fa-trash"> KOSONGKAN</i></button>            
             </div>
         </form>
-        <?php
-        } }
-        ?>
+    <?php }} ?>
     </div>
 </div>

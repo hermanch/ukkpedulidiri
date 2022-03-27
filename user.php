@@ -65,7 +65,7 @@ if (empty($_SESSION['nik'])) { ?>
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Interface
+                MENU
             </div>
 
             <!-- Nav Item - Charts -->
@@ -125,7 +125,7 @@ if (empty($_SESSION['nik'])) { ?>
                                 case 'catatan_perjalanan':
                                     include'catatan_perjalanan.php';
                                     break;
-                                case 'edit_catatn':
+                                case 'edit_catatan':
                                     include'edit_catatan.php';
                                     break;
                                 default:
